@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CScavone96/streaming-media-assignment.git"
+  },
+  "author": "Clayton Scavone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CScavone96/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/CScavone96/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
